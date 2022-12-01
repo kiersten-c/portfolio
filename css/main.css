@@ -94,15 +94,89 @@ textarea {
 
 body {
   background-color: #fffdf5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: black;
 }
 
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+nav a {
+  text-decoration: none;
+  font-size: 1.375em;
+  margin: 10px;
+  font-weight: bold;
+}
+
+a:link {
+  color:black;
+}
+
+a:visited{
+  color: black;
+}
 .divider {
-  width: 100%;
+  width: 80%;
   height: 1px;
   margin: 10px 0 20px 0;
   background-color: #3a3a3a;
  }
- 
+
+h1 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 10em;
+  letter-spacing: 20px;
+  font-weight: normal;
+  margin: 0%;
+  padding: 0;
+  line-height: normal;
+}
+
+h2 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.875em;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.frontend-passion .divider {
+  width: 100%;
+ }
+
+header p {
+  font-size: 1.6875em;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.hi-there h3 {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.0625em;
+}
+
+h4 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 2em;
+}
+
+span {
+  font-weight: bold;
+}
+
+.skills, .tools {
+  font-size: 0.875em;
+  font-style: italic;
+  font-weight: lighter;
+}
+
 /* .container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -114,8 +188,38 @@ header, section {
   scroll-snap-align: start;
 } */
 
+.project {
+  width: 30%;
+  background-color: #b3c89b;
+  margin: 5px;
+}
+
+.skill-section, .tools-section {
+  width: 40%;
+}
+
+#skills p {
+  background-color: #b3c89b;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.0625em;
+  font-weight: bold;
+}
+/*------------ FOOTER STYLES -------------*/
+
 footer{
   background-color: #d0a489;
+  padding: 0;
+  margin: 0;
+}
+
+footer h2 {
+  font-size: 1.875em;
+}
+
+.email {
+  font-size: 1em;
 }
 
 /* ==========================================================================
