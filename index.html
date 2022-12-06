@@ -43,29 +43,29 @@
           </ul>
         </nav>
         <div class="divider"></div>
-        <img src="./img/large-green.png" width="50px" />
+        <img src="./img/large-green.png" class="large-green" />
         <div class="name">
-          <h1>Kiersten</h1>
-          <h1>Connor</h1>
+          <h1 class="first">Kiersten</h1>
+          <h1 class="last">Connor</h1>
         </div>
-        <img src="./img/small-green.png" width="50px" />
+        <img src="./img/small-green.png" class="small-green" />
         <div class="frontend-passion">
-          <h2>Front end<br>web developer</h2>
+          <h2>Front end<br />web developer</h2>
           <div class="divider"></div>
-          <p>with a passion for<br>bringing the world<br>together.</p>
+          <p>with a passion for<br />bringing the world<br />together.</p>
         </div>
       </header>
 
       <main>
         <section id="about">
           <div class="hi-there">
-            <img src="img/green-dots.png" width="50px" />
+            <img src="img/green-dots.png" class="green-dots" />
             <img class="headshot" src="./img/headshot.png" width="50px" />
             <h3>Hi there! I'm Kiersten.</h3>
           </div>
           <h2>About Me</h2>
           <div class="divider"></div>
-          <div>
+          <div class="about-text">
             <p>
               My journey into Tech was not a linear one - I have a Bachelor’s
               Degree in Social Work and a minor in Business Administration - but
@@ -82,113 +82,136 @@
               a new thriller 📚
             </p>
           </div>
+          <div class="divider"></div>
         </section>
         <section id="projects">
           <h2>Projects</h2>
-          <div class="project">
-            <img
-              class="project-img"
-              src="./img/rogue-pickings.png"
-              width="50px"
-            />
-            <h4>Responsive Rogue Pickings</h4>
-            <div class="divider"></div>
-            <p class="description">
-              Originally a static site, this completely responsive one-page site
-              was developed to look beautiful on any device.
-            </p>
-            <p class="skills">
-              <span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries,
-              Responsive Typography
-            </p>
-            <p class="tools">
-              <span>Tools:</span> GitHub, VSCode, Chrome DevTools
-            </p>
-          </div>
-          <div class="project">
-            <img
-              class="project-img"
-              src="./img/github-gallery.png"
-              width="50px"
-            />
-            <h4>Github Repo Gallery</h4>
-            <div class="divider"></div>
-            <p class="description">
-              A website featuring a collection of all of my public GitHub
-              repositories that updates in real time.
-            </p>
-            <p class="skills">
-              <span>Skills:</span> Vanilla JavaScript, Manipulating the DOM,
-              APIs
-            </p>
-            <p class="tools"><span>Tools:</span>GitHub, VSCode</p>
-          </div>
-          <div class="project">
-            <img
-              class="project-img"
-              src="img/unplugged-retreat.png"
-              width="50px"
-            />
-            <h4>Unplugged Retreat Site</h4>
-            <div class="divider"></div>
-            <p class="description">
-              A responsive website with multiple pages developed from a design
-              comp.
-            </p>
-            <p class="skills">
-              <span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries,
-              Responsive Typography
-            </p>
-            <p class="tools">
-              <span>Tools:</span> GitHub, VSCode, Chrome DevTools
-            </p>
-          </div>
-          <div class="project">
-            <img
-              class="project-img"
-              src="img/guess-the-word.png"
-              width="50px"
-            />
-            <h4>Guess the word game</h4>
-            <div class="divider"></div>
-            <p class="description">
-              A website featuring a game where players have to guess a randomly
-              generated word before they use all of their available guesses.
-            </p>
-            <p class="skills">
-              <span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries,
-              Responsive Typography
-            </p>
-            <p class="tools"><span>Tools:</span></p>
-          </div>
-          <div class="project">
-            <img class="project-img" src="img/sticky-notes.png" width="50px" />
-            <h4>Sticky note app</h4>
-            <div class="divider"></div>
-            <p class="description">
-              A fully interactive sticky notes app created using React. Users
-              can add, edit, remove, search, and save notes for the future!
-            </p>
-            <p class="skills">
-              <span>Skills:</span> ES6, JSX, Managing Data Flow, Manipulating
-              the DOM
-            </p>
-            <p class="tools"><span>Tools:</span>CodeSandbox, Netlify</p>
+          <div class="all-projects">
+            <div class="project">
+              <a
+                href="https://kiersten-c.github.io/rogue-responsive/"
+                target="_blank"
+                ><img
+                  class="project-img"
+                  src="./img/rogue-pickings.png"
+                  width="50px"
+              /></a>
+              <h4>Responsive Rogue Pickings</h4>
+              <div class="divider"></div>
+              <p class="description">
+                Originally a static site, this completely responsive one-page
+                site was developed to look beautiful on any device.
+              </p>
+              <p class="skills">
+                <span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries,
+                Responsive Typography
+              </p>
+              <p class="tools">
+                <span>Tools:</span> GitHub, VSCode, Chrome DevTools
+              </p>
+            </div>
+            <div class="project">
+              <a
+                href="https://kiersten-c.github.io/github-repo-gallery/"
+                target="_blank"
+                ><img
+                  class="project-img"
+                  src="./img/github-gallery.png"
+                  width="50px"
+              /></a>
+              <h4>Github Repo Gallery</h4>
+              <div class="divider"></div>
+              <p class="description">
+                A website featuring a collection of all of my public GitHub
+                repositories that updates in real time.
+              </p>
+              <p class="skills">
+                <span>Skills:</span> Vanilla JavaScript, Manipulating the DOM,
+                APIs
+              </p>
+              <p class="tools"><span>Tools:</span>GitHub, VSCode</p>
+            </div>
+            <div class="project">
+              <a
+                href="https://kiersten-c.github.io/unplugged-project/"
+                target="_blank"
+                ><img
+                  class="project-img"
+                  src="img/unplugged-retreat.png"
+                  width="50px"
+              /></a>
+              <h4>Unplugged Retreat Site</h4>
+              <div class="divider"></div>
+              <p class="description">
+                A responsive website with multiple pages developed from a design
+                comp.
+              </p>
+              <p class="skills">
+                <span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries,
+                Responsive Typography
+              </p>
+              <p class="tools">
+                <span>Tools:</span> GitHub, VSCode, Chrome DevTools
+              </p>
+            </div>
+            <div class="project">
+              <a
+                href="https://kiersten-c.github.io/guess-the-word/"
+                target="_blank"
+                ><img
+                  class="project-img"
+                  src="img/guess-the-word.png"
+                  width="50px"
+              /></a>
+              <h4>Guess the word game</h4>
+              <div class="divider"></div>
+              <p class="description">
+                A website featuring a game where players have to guess a
+                randomly generated word before they use all of their available
+                guesses.
+              </p>
+              <p class="skills">
+                <span>Skills:</span> HTML5, CSS3, Flexbox, Media Queries,
+                Responsive Typography
+              </p>
+              <p class="tools"><span>Tools:</span> GitHub, VSCode</p>
+            </div>
+            <div class="project">
+              <a
+                href="https://csb-143q4g.netlify.app/"
+                target="_blank"
+                ><img
+                  class="project-img"
+                  src="img/sticky-notes.png"
+                  width="50px"
+              /></a>
+              <h4>Sticky note app</h4>
+              <div class="divider"></div>
+              <p class="description">
+                A fully interactive sticky notes app created using React. Users
+                can add, edit, remove, search, and save notes for the future!
+              </p>
+              <p class="skills">
+                <span>Skills:</span> ES6, JSX, Managing Data Flow, Manipulating
+                the DOM
+              </p>
+              <p class="tools"><span>Tools:</span>CodeSandbox, Netlify</p>
+            </div>
           </div>
         </section>
         <section id="skills">
-          <h5>skills</h5>
-          <img src="img/black-dots.png" width="50px" />
           <div class="skill-section">
+            <img src="img/black-dots.png" class="black-dots" />
+            <h2>skills</h2>
             <p>html & css</p>
             <p>Git & GitHub</p>
             <p>Responsive Web Design</p>
             <p>JavaScript</p>
             <p>React</p>
           </div>
-          <h5>tools</h5>
-          <img src="img/black-dots.png" width="50px" />
           <div class="tools-section">
+            <img src="img/black-dots.png" class="black-dots" />
+            <h2>tools</h2>
             <p>Chrome DevTools</p>
             <p>GitHub Pages</p>
             <p>Netlify</p>
@@ -199,7 +222,6 @@
       </main>
 
       <footer id="contact">
-        <h2>Let's make<br>something<br>wonderful.</h2>
         <div class="contact-info">
           <p class="email"><span>Email:</span> inquiry@kierstenconnor.xyz</p>
           <div class="social-media">
@@ -216,6 +238,7 @@
             ></a>
           </div>
         </div>
+        <h2>Let's make<br />something<br />wonderful.</h2>
       </footer>
     </div>
 
