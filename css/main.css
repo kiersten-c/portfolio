@@ -143,23 +143,19 @@ header {
 .large-green {
   position: absolute;
   top: 100px;
-  left: -250px;
-  width: 600px;
+  left: -190px;
+  width: 100%;
   overflow: hidden;
   z-index: -1;
 }
 
 .small-green {
-  width: 300px;
+  width: 100%;
   position: absolute;
   top: -90px;
-  left: 220px;
-  overflow: hidden;
+  left: 80px;
+  overflow: hidden !important;
   z-index: -1;
-}
-
-.name{
-  margin-left: 30px;
 }
 
 .last {
@@ -248,10 +244,11 @@ header p {
 }
 
 .green-dots{
-  width: 450px;
+  width: 100%;
+  overflow: hidden;
   position: absolute;
   top: -95px;
-  left: -90px;
+  left: -80px;
   z-index: -1;
 }
 
@@ -360,7 +357,8 @@ span {
 
 .black-dots{
   position: absolute;
-  width: 510px;
+  width: 100%;
+  overflow: hidden;
   z-index: -1;
   top: -40px;
   left: -50px;
@@ -505,13 +503,13 @@ a{
   /* Style adjustments for viewports that meet the condition */
   
  .large-green{
-    top: 20px;
-    left: -210px;
+    top: -70px;
+    left: -310px;
   }
 
   .small-green{
     width: 500px;
-    left: 500px;
+    left: 300px;
     top: -130px;
   }
 
@@ -611,8 +609,14 @@ a{
 
   /* HEADER STYLES */
 
+  .large-green {
+    max-width: 800px;
+    top: 0px;
+    left: -300px;
+  }
+
   .small-green{
-    left: 1200px;
+    left: 750px;
   }
 
   h1{
@@ -626,7 +630,7 @@ a{
   
   .frontend-passion {
     top: 150px;
-    left: 950px;
+    left: 750px;
   }
 
   .frontend-passion .divider {
@@ -656,6 +660,7 @@ a{
   .project{
     width: 30%;
     height: 70vh;
+    max-height: 600px;;
     justify-content: flex-start;
   }
 
