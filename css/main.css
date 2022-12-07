@@ -149,17 +149,23 @@ header {
   z-index: -1;
 }
 
-.small-green {
+/* .small-green {
   width: 100%;
+  max-width: 200px;
   position: absolute;
-  top: -90px;
-  left: 80px;
+  top: -30px;
+  left: 220px;
   overflow: hidden !important;
   z-index: -1;
+} */
+
+.first, .last{
+  margin: 3%;
 }
 
 .last {
   margin-left: 85px;
+  width: 80%;
 }
 
 ul {
@@ -186,7 +192,7 @@ header .divider {
 
 h1 {
   font-family: 'Six Caps', sans-serif;
-  font-size: 8em;
+  font-size: 28vw;
   letter-spacing: 20px;
   font-weight: normal;
   margin: 0;
@@ -295,7 +301,9 @@ h3{
 
 .project {
   width: 75%;
+  max-width: 300px;
   height: auto;
+  min-height: 450px;
   background-color: #b3c89b;
   margin: 5px;
   display: flex;
@@ -387,7 +395,8 @@ footer{
   margin: 0;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: fit-content;
+  flex-wrap: wrap-reverse;
 }
 
 .contact-info {
@@ -397,13 +406,13 @@ footer{
 }
 
 footer h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: left;
-  padding: 13px 10px 8px 10px;
+  padding: 20px 10px 0px 10px;
 }
 
 .email {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 a{
@@ -508,9 +517,13 @@ a{
   }
 
   .small-green{
-    width: 500px;
-    left: 300px;
+    
+    left: 270px;
     top: -130px;
+  }
+
+  h1 {
+    font-size: 18vw;
   }
 
   nav {
@@ -531,8 +544,8 @@ a{
   .frontend-passion {
     width: 30%;
     position: absolute;
-    top: 225px;
-    left: 550px;
+    top: 125px;
+    left: 500px;
   }
 
   .frontend-passion .divider {
@@ -630,7 +643,7 @@ a{
   
   .frontend-passion {
     top: 250px;
-    left: 850px;
+    left: 750px;
   }
 
   .frontend-passion .divider {
