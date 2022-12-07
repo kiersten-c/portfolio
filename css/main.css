@@ -332,6 +332,7 @@ h4 {
 }
 
 .project p {
+  /* font-size: .875em; */
   text-align: center;
   width: 80%;
   margin: 7px;
@@ -686,16 +687,12 @@ a{
   .project{
     width: 30%;
     height: 70vh;
-    max-height: 600px;;
+    max-height: 500px;;
     justify-content: flex-start;
   }
 
   .project img {
     margin-top: 15px;
-  }
-
-  .project p{
-    font-size: 1.2em;
   }
 
   /* SKILL STYLES */
