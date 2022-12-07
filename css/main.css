@@ -620,7 +620,7 @@ a{
   }
 
   h1{
-    font-size: 12em;
+    font-size: 15em;
     margin: 0
   }
 
@@ -629,8 +629,8 @@ a{
   }
   
   .frontend-passion {
-    top: 150px;
-    left: 750px;
+    top: 250px;
+    left: 850px;
   }
 
   .frontend-passion .divider {
@@ -647,8 +647,21 @@ a{
 
   /* ABOUT STYLES */
 
+  #about {
+    margin-top: 600px;
+  }
+
   .green-dots {
-    left: -50px;
+    left: -100px;
+  }
+
+  .headshot{
+    max-width: 380px;
+  }
+
+  .about-text{
+    width: 75%;
+    margin-left: 0;
   }
 
   .about-text p {
@@ -688,6 +701,12 @@ a{
 
   #skills p {
     font-size: 1.4em;
+  }
+
+  /* FOOTER STYLES */
+
+  footer {
+    padding: 0px 20px;
   }
   
 }
