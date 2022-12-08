@@ -282,6 +282,7 @@ h3{
 
 .all-projects {
   display: flex;
+  flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -410,7 +411,7 @@ footer h2 {
   margin-top: 20px;
 }
 
-.email a, span {
+.email a, .contact-info span {
   font-size: 1.3em;
   text-decoration: none;
   
