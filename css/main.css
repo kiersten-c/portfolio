@@ -282,7 +282,7 @@ h3{
 
 .all-projects {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -344,6 +344,27 @@ span {
   font-style: italic;
   font-weight: lighter;
 }
+
+#rogue {
+  order: 5;
+}
+
+#github{
+  order: 3;
+}
+
+#unplugged{
+  order: 4;
+}
+
+#guess{
+  order:2;
+}
+
+#sticky{
+  order:1;
+}
+
 
 /* ----------SKILLS STYLES--------- */
 
@@ -621,7 +642,7 @@ footer h2 {
   }
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1100px){
 
   /* HEADER STYLES */
 
@@ -646,7 +667,7 @@ footer h2 {
   
   .frontend-passion {
     top: 250px;
-    left: 750px;
+    left: 800px;
   }
 
   .frontend-passion .divider {
