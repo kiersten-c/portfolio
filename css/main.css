@@ -259,6 +259,7 @@ header p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 65%;
 }
 
 h3{
@@ -274,8 +275,7 @@ h3{
 }
 
 .about-text p {
-  text-align: center;
-  margin: 10px 0;
+  margin: 25px auto;
 }
 
 /* ----------PROJECT STYLES--------- */
@@ -584,12 +584,8 @@ footer h2 {
   }
 
   .hi-there{
-    width: 45%;
+    width: 30%;
     margin-top: 70px;
-  }
-
-  .about-me {
-    width: 50%;
   }
 
 /* ----------PROJECT STYLES--------- */
